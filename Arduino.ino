@@ -71,10 +71,7 @@ void move(int motor, int dir, float stepsper){
     return found > index ? data.substring(strIndex[0], strIndex[1]) : "";
 }
 
-  //200 step X = 3.8cm 
-  //200 step Y = 
-  //down (0) --- dir (0 => yeb3d 3n motor) , 1 => yerga3 lel motor)
-  //up (1) --- dir (1 => yeb3d 3n motor) , 0 => yerga3 lel motor)
+ 
 void loop()
 {
   bool seriall;
